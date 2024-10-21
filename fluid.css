@@ -1,0 +1,28 @@
+body {
+    margin: 5;
+    font-family: verdana, sans-serif;
+    font-size: 100%;
+    width: 96%
+        max-width: 1200px
+}
+
+header, footer {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.content {
+    background-color: black;
+    border: 1px solid;
+    margin: 0.5rem;
+    padding: 1rem;
+    
